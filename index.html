@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto&display=swap");
+			body {
+				display: flex;
+				flex-direction: row;
+
+				background-color: #000000;
+			}
+			img {
+				height: 80vh;
+				width: fit-content;
+				box-shadow: rgb(55, 71, 79) 0px 5px 15px;
+				border-radius: 15px;
+			}
+			.left,
+			.right {
+				margin: 1.5rem;
+			}
+			.title-container {
+				font-family: Inter;
+				width: 40rem;
+				color: #e2e2e2;
+				font-weight: 500;
+                letter-spacing: 0.45px;
+				font-size: 1.75rem;
+			}
+			.form {
+				color: #e2e2e2;
+				margin-top: 2rem;
+				width: 40rem;
+				display: flex;
+				flex-wrap: wrap;
+				font-family: Inter;
+				text-align: center;
+			}
+			.form > * {
+				flex: 1 1;
+			}
+			input {
+				padding: 0.75rem 1.6rem;
+				margin: 1.5rem 0rem;
+				background-color: #e2e2e2ed;
+				border-radius: 10px;
+				font-family: Inter;
+				border: none;
+				box-shadow: rgb(55, 71, 79) 0px 5px 15px;
+			}
+            input:focus {
+                background-color: #e2e2e2;
+                transition: 0.25s;
+                
+            }
+			.input-container {
+				margin: 0 1rem;
+			}
+            button {
+                background-color: #e2e2e2;
+                padding: 1.5rem;
+                border: none;
+                font-family: Inter;
+                font-size: 1rem;
+                font-weight: 500;
+                border-radius: 10px;
+            }
+            button:hover {
+                background-color: #e2e2e2ed;
+                transition: 225ms;
+            }
+		</style>
+	</head>
+	<body>
+		<div class="left">
+			<img src="./anita-austvika-cv4LFNoH_n0-unsplash.jpg" alt="" />
+		</div>
+		<div class="right">
+			<div class="title-container">
+				This is not a real online service! You know you need something like this in your life to
+				help you realize your deepest dreams. Sign up now to get started. You know you want to.
+				Let's do this!
+			</div>
+			<form action="" class="form">
+				<div class="input-container">
+					<div class="input-name">First Name</div>
+					<input type="text" name="first name" id="" />
+				</div>
+				<div class="input-container">
+					<div class="input-name">Last Name</div>
+					<input type="text" name="last name" id="" />
+				</div>
+				<div class="input-container">
+					<div class="input-name">Email</div>
+					<input type="email" name="" id="" />
+				</div>
+				<div class="input-container">
+					<div class="input-name">Phone</div>
+					<input type="tel" id="phone" name="phone" maxlength="9" />
+				</div>
+                <div class="input-container">
+                    <div class="input-name">Password</div>
+                    <input type="password" name="" id="">
+                </div>
+                <div class="input-container">
+                    <div class="input-name">Confirm Password</div>
+                    <input type="password" name="" id="">
+                </div>
+                <div class="input-container">
+                    
+                    <button>Sign in</button>
+                </div>
+                <div class="input-container">
+                    <button>Create Account</button> 
+                </div>
+			</form>
+            
+		</div>
+	</body>
+</html>
